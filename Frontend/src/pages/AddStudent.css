@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.content h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 90%;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #000;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #ffffff;
+}
+
+button {
+  padding: 6px 12px;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: rgb(202, 140, 25);
+  color: black;
+  border: none;
+}
+
+.delete-btn {
+  background-color: red;
+  color: white;
+  border: none;
+}
